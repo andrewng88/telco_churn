@@ -1,7 +1,5 @@
 # Telco Churn Prediction 
-___
 ## Classification and Supervised ML
-___
 - [Demo](#demo)
 - [Overview](#overview)
 - [Motivation](#motivation)
