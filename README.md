@@ -6,7 +6,7 @@
 - [Technical Aspect](#technical-aspect)
 - [Installation](#installation)
 - [Deployment on Heroku](#deployment-on-heroku)
-- [Directory Tree](#directory-tree)
+- [Directory Structure](#directory-structure)
 - [To Do](#to-do)
 - [Technologies Used](#technologies-used)
 - [Team](#team)
@@ -18,11 +18,12 @@ Please note that it's not down but it takes some time for the server to spin up.
 Link : https://dockerchurn.herokuapp.com/
 ![Drag Racing](https://i.imgur.com/SoTmPWs.png)
 
+# Overview
 This is a simple binary classification Streamlit app trained using Scikit-Learn's Logistic Regression. The trained model takes a list features such as customer profile , subscriptions that they subscribed to ( i.e Internet, StremingTV etc) and also payment profile and predict wheather the customer will churn or not.
 
 # Motivation
-- To build up my portfortlio as my previous job the dataset is private and confidential and I was not able to showcase.
-- To practise my Python skills during lockdown especially in learning deployment from various cloud services and also the important pipeline feature with Scikit Learn. Previously I deployed another project at [AWS](https://bit.ly/3io2TYZ)  and this time I tried Heroku as it's free and this app does not require much space.
+- To build up my portfortlio as I'm unable to share what is done in my previous job due to  private and confidentiality.
+- To practise my Python skills during lockdown especially in learning deployment from various cloud services and also the important pipeline/column transformer feature with Scikit Learn. Previously I deployed **another end to end [HDB Price Prediction project at AWS](https://bit.ly/3io2TYZ)**  and this time I tried Heroku as it's free and this app does not require much space and memory. 
 
 # Technical Aspect
 This project is divided into 2 major parts:
@@ -62,8 +63,7 @@ Processed dataframe is churn_done.csv
 │           svc_model.pkl
 │           template.csv
 ```
-
-# Deployment at Heroku
+# Installation
 
 > STEP 1 ( Local )
 
@@ -87,6 +87,8 @@ $ docker run -d -p 5801:5801 yourappname
  Ctrl-C to end the session
  
  > STEP 2 ( Heroku )
+ 
+# Deployment on Heroku
  
 Create heroku account and install [heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
  ```sh
