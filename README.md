@@ -128,9 +128,7 @@ And of course [Dillinger](https://dillinger.io/) for web based WYSIWYG markdown 
 | [Andrew Ng ](https://www.linkedin.com/in/sc-ng-andrew/)  |
 
 # License
-***
 MIT
 
 # Credits
-***
 Really love [streamlit](https://www.streamlit.io/)
