@@ -1,0 +1,42 @@
+,coefficient_odds
+Contract_Month-to-month,1.99
+TotalCharges,1.97
+InternetService_Fiber optic,1.62
+PaymentMethod_Electronic check,1.29
+OnlineSecurity_No,1.22
+TechSupport_No,1.17
+MultipleLines_No phone service,1.16
+StreamingMovies_Yes,1.16
+StreamingTV_Yes,1.11
+OnlineBackup_No,1.06
+PaperlessBilling_Yes,1.01
+DeviceProtection_Yes,1.01
+SeniorCitizen_1,0.99
+MultipleLines_Yes,0.98
+Dependents_No,0.98
+DeviceProtection_No,0.97
+PaymentMethod_Mailed check,0.92
+OnlineBackup_Yes,0.92
+Contract_One year,0.91
+StreamingTV_No,0.88
+PaymentMethod_Credit card (automatic),0.86
+StreamingMovies_No,0.84
+TechSupport_Yes,0.83
+DeviceProtection_No internet service,0.83
+StreamingTV_No internet service,0.83
+OnlineBackup_No internet service,0.83
+StreamingMovies_No internet service,0.83
+OnlineSecurity_No internet service,0.83
+InternetService_No,0.83
+Dependents_Yes,0.83
+TechSupport_No internet service,0.83
+SeniorCitizen_0,0.82
+intercept,0.81
+PaperlessBilling_No,0.8
+PaymentMethod_Bank transfer (automatic),0.8
+OnlineSecurity_Yes,0.8
+MonthlyCharges,0.76
+MultipleLines_No,0.71
+InternetService_DSL,0.6
+Contract_Two year,0.45
+tenure,0.26
