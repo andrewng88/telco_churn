@@ -77,15 +77,7 @@ Install [Dockers for Windows 10 Home](https://docs.docker.com/docker-for-windows
 CD to **deploy** directory to build the docker image
 ```sh
 $ docker build -t yourappname:latest
-```
-( Optional but Recommended)
- Run image locally to ensure it's working before you deploy at the cloud. Streamlit uses 5801 but Heroku will help you assign. You can access via http://localhost:5801/ . 
-
- ```sh
-$ docker run -d -p 5801:5801 yourappname
-```
- Ctrl-C to end the session
- 
+``` 
  > STEP 2 ( Heroku )
  
 # Deployment on Heroku
