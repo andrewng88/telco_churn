@@ -182,7 +182,7 @@ def main():
 
         #display odds
         if st.checkbox('Display Logistic Regression Odds - Higher odds will contribute to Churn:'):
-            odds  = load_data('data\odds.csv')
+            odds  = load_data('data/odds.csv')
             st.dataframe(odds)
 
     # Batch Predictions
