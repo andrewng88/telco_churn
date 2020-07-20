@@ -14,7 +14,7 @@
 - [Credits](#credits)
 
 # Demo
-Please note that it's not down but it takes some time for the server to spin up.
+**Please note that it's not down but it takes some time for the server to spin up.**<br>
 Link : https://dockerchurn.herokuapp.com/
 ![Drag Racing](https://i.imgur.com/SoTmPWs.png)
 
